@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const Comp0 = lazy(() => import("./Admin/bluebuslogin"));
-const Comp1 = lazy(() => import("./Admin/bluebusdasboard"));
+const Comp1 = lazy(() => import("./Admin/bluebusdashboard"));
 const Comp2 = lazy(() => import("./Admin/bluebusbooktickect"));
 const Comp3 = lazy(() => import("./Admin/ManageBooking"));
 const Comp4 = lazy(() => import("./Admin/register"));
