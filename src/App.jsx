@@ -3,7 +3,7 @@ import React, { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
-const Comp0 = lazy(() => import("./Admin/bluebuslogin"));
+
 const Comp1 = lazy(() => import("./Admin/bluebusdashboard"));
 const Comp2 = lazy(() => import("./Admin/bluebusbooktickect"));
 const Comp3 = lazy(() => import("./Admin/ManageBooking"));
@@ -39,8 +39,8 @@ function App() {
     <Router>
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
-          <Route path="/" element={<Comp0 brandConfig={brandConfig} />} />
-<Route path="/dashboard" element={<Comp1 brandConfig={brandConfig} />} />
+         
+<Route path="/" element={<Comp1 brandConfig={brandConfig} />} />
 <Route path="/book-ticket" element={<Comp2 brandConfig={brandConfig} />} />
 <Route path="/manage-ticket" element={<Comp3 brandConfig={brandConfig} />} />
 <Route path="/register" element={<Comp4 brandConfig={brandConfig} />} />
