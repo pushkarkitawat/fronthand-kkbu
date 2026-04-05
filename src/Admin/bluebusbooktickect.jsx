@@ -75,7 +75,7 @@ export default function BlueBusBooking({brandConfig}) {
           <h1>{appName} — Book Ticket</h1>
           <p>{subTagline}</p>
         </div>
-        <div id="backbutton" style={{ left: "70%" }}><BackButton2 /></div>
+        <div id="backbutton" style={{position:"relative",top:-20, left: "68%",zIndex: 1000 }}><BackButton2 /></div>
       </div>
 
       <div className="layout">
