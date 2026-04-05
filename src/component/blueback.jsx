@@ -18,7 +18,7 @@ export const BackButton2 = (color = "Black") => {
         }}
         
       >
-      <span>&#8592;</span>
+      <span>←</span>
       </button>
     );
   };
